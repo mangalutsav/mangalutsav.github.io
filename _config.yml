@@ -9,12 +9,15 @@ baseurl: "/"
 url: "http://www.jack003.com"
 # url: "http://127.0.0.1:4000"
 
+# blog img path
+img_path: 'http://www.jack003.com/static/img/blog'
+
 # author
 author:
   name: 'Jack'
   first_name: 'Jia'
   last_name: 'Kun'
-  email: 'jack19890614@gmail.com'
+  email: 'me@jack003.com'
   facebook_username: 'jiakunnj'
   github_username: 'Jack614'
   head_img: 'static/img/landing/Jack.jpg'
@@ -42,15 +45,19 @@ project:
   saplatform:
     name: 'Saplatform'
     url: '/Jack614/saplatform'
-    img: 'static/img/landing/saplatform.jpg'
+    img: 'static/img/landing/saplatform.png'
   jalpc:
     name: 'Jalpc'
     url: '/Jack614/jalpc_jekyll_theme'
-    img: 'static/img/landing/jekyll.jpg'
+    img: 'static/img/landing/jekyll.png'
   angularjs:
     name: 'Jalpc-A'
     url: '/Jack614/Jalpc-A'
-    img: 'static/img/landing/angularjs.jpg'
+    img: 'static/img/landing/angularjs.png'
+  Rsser:
+    name: 'Rsser'
+    url: '/Jack614/Rsser'
+    img: 'static/img/landing/rsser.png'
 
 # blog index
 index:
@@ -87,12 +94,10 @@ ba:
 ga:
   id: UA-73784599-1
 
-# blog img path
-img_path: '/static/img/blog'
-
 # Build settings
 encoding: "utf-8"
 
+# other settings
 highlighter: rouge
 markdown: kramdown
 kramdown:
