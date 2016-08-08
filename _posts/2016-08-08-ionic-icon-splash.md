@@ -6,7 +6,7 @@ desc: "Ionic应用图标和启动页面的配置"
 keywords: "Ionic,icon,splash"
 categories: [HTML]
 tags: [Ionic]
-icon: icon-angular
+icon: icon-phone-gap
 ---
 
 > 手机app开发一般都有一个图标和启动页。为了适合不同尺寸的手机，所以配置了不同大小的图片，下面是制作不同尺寸大小图片的方法。
