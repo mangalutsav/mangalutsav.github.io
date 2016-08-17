@@ -47,7 +47,7 @@ project:
     img: 'static/img/landing/Youtoo.png'
   Yolog:
     name: 'Yolog'
-    url: '/Mangalutsav/Yolog'
+    url: '/Karandesai-96/Yolog'
     img: 'static/img/landing/yolog.jpg'
 
 # blog index
