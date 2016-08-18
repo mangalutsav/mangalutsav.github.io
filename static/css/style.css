@@ -39,7 +39,7 @@ h4,
 h5 {
   margin-top: 5px;
   font-weight: 600;
-}
+} 
 .nav > li > a {
   color: #a7b1c2;
   font-weight: 600;
@@ -6712,9 +6712,11 @@ body.landing-page {
 }
 .landing-page .header-back.one {
   background: url('../img/landing/header_one.jpg') 50% 0 no-repeat;
+  background-size: cover;
 }
 .landing-page .header-back.two {
   background: url('../img/landing/header_two.jpg') 50% 0 no-repeat;
+  background-size: cover;
 }
 .landing-page .carousel {
   height: 470px;
