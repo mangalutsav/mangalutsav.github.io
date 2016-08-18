@@ -22,7 +22,8 @@ permalink: /
                         <li><a class="page-scroll" href="#career"><span data-i18n="nav.career">{{ site.landing.career }}</span></a></li>
                         <li><a class="page-scroll" href="#skills"><span data-i18n="nav.skills">{{ site.landing.skills }}</span></a></li>
                         <li><a class="page-scroll" href="#project"><span data-i18n="nav.projects">{{ site.landing.projects }}</span></a></li>
-                        <li><a class="page-scroll" href="#blog"><span data-i18n="nav.blog">{{ site.landing.blog }}</span></a></li>
+                        <li><a class="page-scroll" href="#contact"><span data-i18n="nav.contact">{{ site.landing.contact }}</span></a></li>
+                        <li><a class="page-scroll" href="/blog/"><span>Blog</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +44,7 @@ permalink: /
                 </div>
             </div>
             <!-- Set background for slide in css -->
-            <div class="header-back one"></div>
+            <div class="header-back one" style="background-size: cover;"></div>
 
         </div>
         <div class="item">
@@ -52,7 +53,7 @@ permalink: /
                 </div>
             </div>
             <!-- Set background for slide in css -->
-            <div class="header-back two"></div>
+            <div class="header-back two" style="background-size: cover;"></div>
         </div>
     </div>
     <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
@@ -103,8 +104,6 @@ permalink: /
                         </li>
                         <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="{{ site.url}}/feed.xml" target="blank"><i class="fa fa-rss"></i></a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -128,7 +127,7 @@ permalink: /
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
                 <p><span data-i18n="about_me.des">
-                    I am a student at IITR, begin development with python and JS. Life is a continuous learning process, so I spend most of my time learning ,developing and being a Panda .
+                    I am a student in IITR, doing development in python and JS. Life is a continuous learning process, so I spend most of my time learning ,developing and being a Panda .
                 </span></p>
             </div>
         </div>
@@ -395,13 +394,22 @@ permalink: /
     <br>
 </section>
 
-<section id="blog" class="navy-section testimonials" style="margin-top: 0">
+<section id="contact" class="navy-section testimonials" style="margin-top: 0">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
-                <br><br><br>
-                <a class="btn btn-lg btn-default btn-rounded btn-outline" href="/blog/"><span data-i18n="blog.my_blog">My Blog</span></a>
-                <br><br><br>
+            <div class="col-lg-12 text-center wow zoomIn" id="i18_contact">
+                <h2>
+                <span>Contact Me</span>
+                <br></br>
+                <ul class="list-inline social-icon">
+                        <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a>
+                        </li>
+                        <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                    </ul>
+                    </h2>
             </div>
         </div>
     </div>
