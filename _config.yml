@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Kraken"
+title: "Panda"
 description: "Utsav Mangal,blog and portofolio"
 keywords: "Utsav,Mangal,blog,programming"
 
@@ -29,7 +29,7 @@ landing:
   career: 'Career'
   skills: 'Skills'
   projects: 'Project'
-  blog: 'Blog'
+  contact: 'Contact'
 
 # my projects
 project:
