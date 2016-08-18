@@ -1,12 +1,17 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="title" property="og:title">
+  <meta content="type" property="og:type">
+  <meta content="image" property="og:image">
+  <meta content="url" property="og:url">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:title" content="Mangal's Blog"/>
   <meta property="og:image" content="http://www.mangalutsav.xyz/static/img/favicon.ico"/>
   <meta property="og:site_name" content="Utsav Mangal's Blog"/>
   <meta property="og:description" content="A tech blog focused on development"/>
-  <meta property="fb:app_id" content="966242223397117" />
+  <meta property="fb:admins" content="{{ site.fb_admins }}">
+  <meta property="fb:app_id" content="{{ site.fb_appid }}">
   {% if page.desc %}
     <meta content="{{ page.desc }}" name="description">
   {% endif %}

@@ -77,3 +77,5 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+fb_admins:          http://facebook.com/mangalutsav
+fb_appid:           1758376257751682

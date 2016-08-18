@@ -27,9 +27,6 @@ permalink: /blog/
                             {{ post.title }}
                         </a>
                         <div class="vote-info">
-                        {% if site.changyan %}
-                            <i class="fa fa-comments-o"> </i> <a>Comments (<span id = "url::{{post.url | prepend: site.url}}" class = "cy_cmt_count" ></span>)</a>
-                        {% endif %}
                         {% if site.disqus %}
                             <i class="fa fa-comments-o"> </i> <a>Comments (<span class='disqus-comment-count' data-disqus-url="{{ site.url }}{{ post.url }}">0</span>)</a>
                         {% endif %}
