@@ -8,8 +8,7 @@
     "skills": "Skills",
     "projects": "Projects",
     "career": "Career",
-    "blog": "Blog",
-    "link": "Link"
+    "contact": "Contact"
   },
   "about_me":{
     "about_me": "About Me",
@@ -44,8 +43,8 @@
     "college_date": "August. 2015",
     "college_job": "Student"
   },
-  "blog":{
-    "my_blog": "My Blog"
+  "contact":{
+    "my_contact": "Contact me"
   }
 
 }
